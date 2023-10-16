@@ -4,11 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
+import { DemoComponent } from './demo/demo-component';
+import { ListBooksComponent } from './list-books/list-books.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DemoComponent,
+    ListBooksComponent
   ],
   imports: [
     BrowserModule,

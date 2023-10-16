@@ -1,18 +1,2 @@
-<div>
-  <h1>{{title}}</h1>
-  <input type="text" [(ngModel)]="title"/>
-  <p>Ceci est un test</p>
-</div>
-<div>
-  <img [src]="url" alt="logo angular" width="50" width="50" />
-</div>
-<div>
-  <button (click)="changeLogo()">Changer le logo</button>
-  <button (click)="showHideMonths()">Afficher / Cacher la liste des mois</button>
-</div>
-<div *ngIf="show">
-  <h2>Les mois de l'année :</h2>
-  <ul>
-    <li *ngFor="let m of mois">{{m}}</li>
-  </ul>
-</div>
+<!--<app-demo></app-demo>-->
+<app-list-books></app-list-books>
